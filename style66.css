@@ -1,0 +1,24 @@
+.hero {
+    background-image: url('/api/placeholder/1600/900');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 12, 12);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.city-card {
+    transition: transform 0.3s;
+}
+.city-card:hover {
+    transform: translateY(-5px);
+}
+.city-icon{
+
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
